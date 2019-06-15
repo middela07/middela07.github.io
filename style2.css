@@ -1,0 +1,30 @@
+li{
+color:purple ;
+}
+h1{
+text-decoration: underline;
+display: inline-block;
+
+}
+body{
+
+font-size: "500px";
+font-family: 'Finger Paint', cursive;
+text-align: center;
+background-image: url(https://limecrime-weblinc.netdna-ssl.com/product_images/bunny/Bunny/5c424dcb6170706bbb000bc5/zoom.jpg?c=1547849163);
+}
+.boxmodel{
+border: 5px solid purple;
+display: inline-block;
+padding: 1px 20px 1px 20px;
+margin: 5px 100px;
+}
+h1{
+	text-align: center;
+}
+p{
+  font-size: 15px;
+}
+span{
+	font-size: 2em;
+}
