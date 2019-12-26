@@ -1,0 +1,48 @@
+Page Layout
+• Visual organization is easily understood
+	We created a template page and used it as a landing page (home page).
+• Aesthetic use of colors and fonts
+	We have created a css file that standardized the website with consistent colors, images, fonts, and spacing.
+• Consistent format page to page
+	This template page that we created will follow the standard format of every page included on our website.
+
+Navigational Theme
+• Links present and working
+	We have created a header and footer page so that links are consistent thrughout the website
+• Links show consistent formatting
+	We have formatted the links in our codes by using a "link rel" tag, which specifies the item as a link
+• Navigational path is clear and logical
+	The paths to navigate each section are easy click links, and we have 
+
+ Graphic Media Use
+• Enhances topic
+	(show solar page) each image, like the applications, exemplifies the content, like solar panel fused in windows 
+• Creativity through graphic design
+(template, code, or combined)
+	By using css, you can see the image size formatted;like the corner images fit smaller than the middle ones for an aestetic balanced look. CSS allows us to change it. In specificity...(insert code)  
+• Originality of graphics (stock or original)
+	
+	
+• Effective use of innovative technology
+(Ex: original coding, use of SASS, Python)
+	Technologies Used: HTML, CSS, Bootstrap, 
+	For the structure, we have created an HTML template to make the format consistent across the website. 
+	The color combinations, images, fonts, and other design elements are personalized with CSS, 
+	which we made from scratch. And, with Bootstrap, we could make our website responsive to the user's device.
+	
+	We have written our code in an editor called Sublime Text 3. By individually designing each page, 
+	but using the checkin and checkout of the code from the GITHUB-which holds the source code,
+	we could combine our work into one stunning website.
+
+Content
+• Well developed
+• Portrays the topic
+• Effectiveness of site
+
+Technical
+• Cross-browser compatibility
+• Source Code is well organized and meets
+validation
+
+Grammar, Spelling, Punctuation, and
+Usage
