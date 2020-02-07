@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <title>N & N Website (Bio Home)</title>
@@ -10,18 +11,22 @@
 
 <body>
   <!-- Navbar (sit on top) -->
+  
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button"><b>BioFriendly</b>Home</a>
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card"><!--   -->
+    <ul id="nav">
+  <a href="index.html" class="w3-bar-item w3-button"><b>BioFriendly</b>Home</a>
     <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
+    <div class="w3-right">
       <a href="biohomeSolarenergy.html" class="w3-bar-item w3-button">Solar Energy</a>
       <a href="Geothermal.html" class="w3-bar-item w3-button">Geothermal Energy</a>
       <a href="biohomeWind.html" class="w3-bar-item w3-button">Wind Energy</a>
       <a href="tech.html" class="w3-bar-item w3-button">Website Information</a>
+</ul>
     </div>
   </div>
 </div>
+
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="earth.jpg" alt="earth" width="1500" height="800">
@@ -44,46 +49,56 @@
   <!-- this is solar -->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <a href="biohomeSolarenergy.html"> 
+      <div class="image-holder">
       <img src="solar.jpg" alt="SolarImage" style="width:100%">
+      </div>
       </a>
       <h3>Solar Energy</h3>
       <p class="w3-opacity"> Alternative energy resource</p>
       <p>Solar energy is a source of energy accessed from the power of the sun.</p>
-      <p><a href="biohomeSolarenergy.html"><button class="w3-button w3-light-grey  w3-block">Learn More</button></a></p>
+      <p><a href="biohomeSolarenergy.html"><button class="w3-button w3-light-grey  w3-black">Learn More</button></a></p>
     </div>
   <!-- this is geothermal -->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <a href="Geothermal.html"> 
+      <div class="image-holder">
       <img src="hotspring.jpg" alt="GeoImage" style="width:100%">
       </a>
+      </div>
       <h3>Geothermal Energy</h3>
       <p class="w3-opacity">Alternative energy resource</p>
       <p>Geothermal is a source of energy accessed from inside the Earth’s surface.</p>
-      <p><a href="Geothermal.html"> <button class="w3-button w3-light-grey w3-block">Learn More</button></a></p>
+      <p><a href="Geothermal.html"> <button class="w3-button w3-light-grey w3-black">Learn More</button></a></p>
     </div>
 <!-- this is wind -->
     <div class="w3-col l3 m6 w3-margin-bottom">
       <a href="biohomeWind.html"> 
+      <div class="image-holder">  
       <img src="wind.jpg" alt="WindImage" style="width:100%">
+      </div>
       </a>
+      <!-- class="w3-button w3-hover-dark-red w3-black img1" -->
       <h3>Wind Energy</h3>
       <p class="w3-opacity">Alternative energy resource</p>
       <p>Wind energy is a source of energy which is generated from the wind.</p>
-      <p><a href="biohomeWind.html"> <button class="w3-button w3-light-grey w3-block">Learn More</button></a></p>
+      <p><a href="biohomeWind.html"> <button class="w3-button w3-light-grey w3-black">Learn More</button></a></p>
     </div>
 <!-- this is tech involved -->
      <div class="w3-col l3 m6 w3-margin-bottom">
       <a href="tech.html"> 
+      <div class="image-holder">  
       <img src="tech.jpg" alt="TechImage" style="width:100%">
+      </div>
       </a>
       <h3>Website Information</h3>
       <p class="w3-opacity">Works Cited</p>
       <p>This is where we cite our sources and list any technology involved.</p>
-      <p><a href="tech.html"> <button class="w3-button w3-light-grey w3-block">Learn More</button></a></p>
+      <p><a href="tech.html"> <button class="w3-button w3-light-grey w3-black">Learn More</button></a></p>
     </div>
 
   </div>
 </div>
+
 <!-- End page content -->
 
 
@@ -91,6 +106,19 @@
 <footer class="w3-center w3-black w3-padding-16">
   <p>Created by Naina Middela and Nethra Middela</p>
 </footer>
+<!-- Footer ends here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+  $("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
+  $("#menu").click(function(){
+    $("#nav").toggle();
+  });
+  $(window).resize(function(){
+    if(window.innerWidth > 768) {
+      $("#nav").removeAttr("style");
+    }
+  });
+</script>
 
 </body>
 </html>
